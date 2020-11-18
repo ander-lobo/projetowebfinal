@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+  <Resource name="jdbc/epiousion" auth="Container"
+            type="javax.sql.DataSource" username="lobinho" password=""
+            driverClassName="com.mysql.cj.jdbc.Driver" 
+            url="jdbc:mysql://localhost:3306/epiousion?serverTimezone=UTC"
+            maxActive="99" 
+            />
+
+</Context>
+
